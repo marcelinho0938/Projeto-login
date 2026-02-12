@@ -3,8 +3,8 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import { Outlet, createBrowserRouter, RouterProvider } from 'react-router-dom'
 import App from './App.jsx'
-import Cadastro from './pages/Cadastro.jsx'
-import Login from './pages/Login.jsx'
+import Cadastro from './components/Cadastro.jsx'
+import Login from './components/Login.jsx'
 
 const Root = () => {
   return (
