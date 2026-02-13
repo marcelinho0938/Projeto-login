@@ -1,10 +1,11 @@
 import Logo from '../assets/logo.png'
+
 const Login = () => {
   return (
     <>
-        <div className="flex flex-end items-center justify-center h-screen border-2 border-red-500 rounded-3xl">
+        
 
-          <div className="border-2 border-green-500 rounded-3xl w-1/2 h-3/4 flex flex-col items-center justify-center">
+          <div className="rounded-3xl h-screen flex flex-col items-center justify-center">
 
             <div className="bg-[#E2E2E2] border border-[#9B5C42] rounded-full w-32 h-32 ">
               <img src={Logo} alt="Logo" />
@@ -29,7 +30,7 @@ const Login = () => {
 
           </div>
 
-        </div>
+       
     </>
   )
 }   

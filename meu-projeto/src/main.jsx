@@ -3,8 +3,10 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import { Outlet, createBrowserRouter, RouterProvider } from 'react-router-dom'
 import App from './App.jsx'
-import Cadastro from './components/Cadastro.jsx'
-import Login from './components/Login.jsx'
+import Cadastro from './components/cadastro.jsx'
+import Login from './components/login.jsx'
+import Autenticacao from './pages/autenticacao.jsx'
+
 
 const Root = () => {
   return (
@@ -21,7 +23,8 @@ const router = createBrowserRouter([
     children: [
       { index: true, element: <App /> },
       { path: 'login', element: <Login /> },
-      { path: 'cadastro', element: <Cadastro /> }
+      { path: 'cadastro', element: <Cadastro /> },
+      { path : 'autenticacao', element: <Autenticacao /> }
     ]
   }
 ])
